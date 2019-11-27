@@ -1,0 +1,26 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.xenatronics.wemos2.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_general"
+        android:title="Général" />
+
+    <header
+        android:fragment="com.xenatronics.wemos2.SettingsActivity$IntervalPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Intervalle" />
+
+    <header
+        android:fragment="com.xenatronics.wemos2.SettingsActivity$InfosPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Infos" />
+    <header
+        android:fragment="com.xenatronics.wemos2.SettingsActivity$ExitPreferenceFragment"
+        android:icon="@drawable/ic_back"
+        android:title="Quitter Préférences" />
+        <!--android:icon="@drawable/ic_sync_black_24dp"-->
+
+
+</preference-headers>
